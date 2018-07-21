@@ -1,0 +1,12 @@
+<p>Variable that accepts a closure as body to run within a certain docker container.</p>
+
+<dl>
+    <dt id="container.maven"><code>maven(Closure body)</code></dt>
+    <dd><p>
+        Uses <code>maven</code> image
+    </p></dd>
+    <dt id="container.npm"><code>npm(Closure body)</code></dt>
+    <dd><p>
+        Uses the <code>node:8.11</code> image
+    </p></dd>
+</dl>
