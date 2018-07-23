@@ -6,7 +6,7 @@ example:
 @Library('jenkins-shared-library') _
 
 pipelineFor([
-        PROJECT_NAME            : null,
+        PROJECT_NAME            : 'My Project',
         DOCKERHOST              : 'dockerhost',
         INSTALL_COMMAND         : 'npm install',
         LINT_COMMAND            : 'npm run lint',
